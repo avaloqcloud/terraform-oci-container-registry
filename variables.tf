@@ -15,7 +15,7 @@ variable "display_name" {
 }
 
 variable "is_public" {
-  type        = boolean
+  type        = bool
   default     = false
   description = "Enable public access to the Container Registry"
 }
