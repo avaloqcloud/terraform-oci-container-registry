@@ -1,5 +1,7 @@
-# Your 'main.tf' code goes here.
+resource "oci_artifacts_container_repository" "this" {
+  compartment_id = var.compartment_ocid
+  display_name   = var.display_name
 
-# You should create additional files if relevant for your project:
-# * 'outputs.tf' to declare your output variables
-# * 'data.tf' to declare your data sources
+  is_public = var.is_public
+}
+
