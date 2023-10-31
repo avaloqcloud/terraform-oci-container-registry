@@ -1,4 +1,4 @@
-[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/avaloqcloud/terraform-oci-container-registry/archive/refs/tags/v0.0.0.zip)
+[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/avaloqcloud/terraform-oci-container-registry/archive/refs/tags/v0.1.0.zip)
 
 [![Generate terraform docs](https://github.com/avaloqcloud/terraform-oci-container-registry/actions/workflows/documentation.yml/badge.svg)](https://github.com/avaloqcloud/terraform-oci-container-registry/actions/workflows/documentation.yml)
 
@@ -10,7 +10,7 @@ Terraform module to create Container Registry on Oracle Cloud Infrastructure.
 
 ```hcl
 module "terraform-oci-container-registry" {
-  source = "https://github.com/avaloqcloud/terraform-oci-container-registry?ref=v0.0.0"
+  source = "https://github.com/avaloqcloud/terraform-oci-container-registry?ref=v0.1.0"
 
   compartment_id = "ocid1.compartment.oc1..xxx"
   display_name   = "example-bucket"
