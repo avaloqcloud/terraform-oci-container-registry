@@ -15,7 +15,7 @@ variables:
     required: true
 
   display_name:
-    type: string
+    type: avq:application:registry
     pattern: '^[a-z0-9]+(?:[-][a-z0-9]+)*\/[a-z0-9]+(?:[-][a-z0-9]+)*$'
     title: Registry name
     description: 'Registry name. Format: <namespace>/<container-image>'
