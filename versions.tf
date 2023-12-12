@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   experiments      = [module_variable_optional_attrs]
   required_version = "~> 1.2.8"
   required_providers {
@@ -7,4 +7,4 @@ terraform {
       version = "5.18.0"
     }
   }
-}
+}*/
